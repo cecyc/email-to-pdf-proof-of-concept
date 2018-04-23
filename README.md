@@ -5,9 +5,9 @@ Problem: I was tasked with building a proof of concept for an application that w
 ## Assumptions:
 
 * Using the Context.IO API somehow to easily parse emails: We want leverage the Context.IO API to get messages easily via webhooks.
- * The advantage: Context.IO can return message bodies as HTML by default. We can easily take the HTML and convert it to PDF.
+  * The advantage: Context.IO can return message bodies as HTML by default. We can easily take the HTML and convert it to PDF.
 * Using AWS Lambda to process the PDF and send a link to download
- * Why Lambda? It's easier to execute for a proof of concept, you don't have to worry about deployments, it's easily testable
+  * Why Lambda? It's easier to execute for a proof of concept, you don't have to worry about deployments, it's easily testable
 
  ## Steps
 
